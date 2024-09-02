@@ -1,0 +1,13 @@
+def get():
+    global a,b
+    a=int(input("enter the first value: "))
+    b=int(input("enter the second value: "))
+def process():
+    global c
+    c=a+b
+def put():
+    print("sum of a and b:",c)
+get()
+process()
+put()
+
